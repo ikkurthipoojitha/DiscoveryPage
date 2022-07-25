@@ -1,0 +1,95 @@
+.header-container{
+    width: 100vw;
+    height: 60vh;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg");            
+}
+img{    
+  top: 50px;
+  left: 80px;
+  font-size: 18px;
+}
+.topright {
+    position: absolute;
+    top: 50px;
+    right: 80px;
+    font-size: 18px;
+
+  }
+h1 {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    left: 180px;
+    text-align: left;
+    font-size: 40px;
+  }
+h3{
+    left:180px;
+    font-size: 20px;
+}
+.nav,a.split  {
+    float: right;
+    font-size: 16px;
+    padding: 10px;
+}
+.nav,a.logo{
+    float:left;
+    padding-left: 20px;
+} 
+
+.main{
+    width: 100vw;
+    height: 120vh;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.child{
+    width: 33.1%;
+    height: 50%;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    border: 1px solid grey ;
+    display: flex;
+    flex-direction: row;
+    width:100vw;
+    height:40vh;
+    background-color: chocolate;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.child-footer{
+    width:33%;
+    height: 50%;
+    display: flex;
+    background-color: chocolate;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.image{
+    width: 100%;
+    height: 80%;
+    border: 1px solid blue;
+    object-fit: contain;
+
+}
+.label{
+    width: 100%;
+    height: 20%;
+    border: 1px solid rgb(0, 255, 30);
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

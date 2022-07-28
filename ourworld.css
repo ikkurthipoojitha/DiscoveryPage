@@ -1,0 +1,87 @@
+.header-container{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+    /* background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/7383/jael-rodriguez-AkF5NT0sZy8-unsplash-1-1_210301_200939_35d31212c7a2d4dccdff99afa3f88af5.jpg"); */
+}
+.nav,a.split  {
+    float: right;
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+}
+
+.child{
+    width: 20%;
+    height: 20%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+.main{
+    background-color: black;
+    width: 100vw;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.image{
+    width: 100%;
+    height: 70%;
+    border: 1px solid black;
+    object-fit: cover;
+
+}
+.label{
+    width: 100%;
+    height: 30%;
+    border: 1px solid black;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    
+    display: flex;
+    flex-direction: row;
+    width:100vw;
+    height:40vh;
+    background-color: darkslategray;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.child-copy{
+    width:100%;
+    height:10%;
+    display: flex;
+    background-color: darkslategrey;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.child-footer{
+    width:55%;
+    height: 40%;
+    display: flex;
+    background-color: darkslategrey;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.child-footer-new{
+    width:20%;
+    height:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

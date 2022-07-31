@@ -9,7 +9,7 @@
 .nav,a.split  {
     float: right;
     font-size: 16px;
-    padding: 10px;
+    padding: 25px;
     color: black;
 }
 .back-video{
@@ -48,6 +48,11 @@
 }
 h1{
     text-align: center;
+    font-size:45px;
+    /* font-style:oblique; */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    line-height: 26pt;
 }
 h2{
     margin-left:20px;
@@ -57,6 +62,7 @@ h2{
 }
 h3{
     margin-left: 20px;
+    font-size:30px;
 }
 #textpara{
     padding:20px 20px;

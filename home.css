@@ -1,0 +1,304 @@
+.header-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/7383/jael-rodriguez-AkF5NT0sZy8-unsplash-1-1_210301_200939_35d31212c7a2d4dccdff99afa3f88af5.jpg"); */
+}
+.nav,a.split  {
+    float: right;
+    font-size: 16px;
+    padding: 25px;
+    color: black;
+}
+.back-video{
+  position: absolute;
+  right: 0;
+  top:0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#video{
+    width: 100%;
+    height: 100%;
+}
+#h1video{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    left: 180px;
+    text-align: left;
+    font-size: 50px;
+}
+.container2{
+    width: 100vw;
+    height: 170vh;
+    display: flex;
+    flex-direction: row;
+    /* background-color: white; */
+    /* border: 1px solid red; */
+    justify-content: space-around;
+    z-index:-1;
+    background-size: 1180px 900px;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/287/background_imagev2_3580431e48aedf97dcedf972d1481942.jpg");
+    position: relative;
+    object-fit: cover;
+}
+
+.multiplesub{
+    width: 50%;
+    height:100%;
+    top: 100px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid rebeccapurple; */
+}
+#multipleimg{
+    top: 120px;
+    left:30px;
+    position: relative;
+    width:70%;
+    height:70%;
+}
+#multipletext{
+    top:220px;
+    font-size: 35px;
+    text-align: justify;
+}
+
+.multipletextimg{
+    width:50%;
+    height:50%;
+    display: flex;
+    /* left:150px; */
+    flex-direction: column;
+    /* border: 1px solid green; */
+}
+#submultipleimg1{
+    width:480px;
+    height:40%;
+    top:500px;
+    left:50px;
+    position: relative;
+
+}
+
+.whitebox2{
+    left:50px;
+    width: 480px;
+    height: 32%;
+    /* border: 1px solid black; */
+    z-index: 15;
+    position: absolute;
+    top: 100px;
+    line-height: 26pt;
+    text-align: justify;
+ 
+}
+
+h3{
+    font-size: 30px;
+}
+.container1{
+    width: 100vw;
+    height: 45vh;
+    display: flex;
+    z-index: 10;
+    flex-direction: row;
+    /* background-color: white; */
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    position: relative;
+    object-fit: cover;
+}
+.whitebox{
+    left:100px;
+    width:50%;
+    height:100%;
+    /* border: 1px solid grey; */
+    line-height: 26pt;
+    text-align: justify;
+    position: absolute;
+}
+.subcontainer{
+    width:100%;
+    height:26%;
+    /* border:1px solid green; */
+    z-index:15;
+}
+.subcontainer1{
+    width:100%;
+    height:75%;
+    z-index:20;
+    display: flex;
+    position:absolute;
+    /* border: 1px solid brown; */
+}
+.imagecontainer{
+    width: 100vw;
+    height:100vh;
+    display:flex;
+    flex-direction:row;
+    /* background-image: url("https://discoverylandco.com/static/globe-clouds.png"); */
+    position: relative;
+    object-fit: cover;
+    
+}
+.blackbox{
+    top:50px;
+    bottom:100px;
+    width:50%;
+    height:85%;
+    z-index:35;
+    left:635px;
+    position: absolute;
+    z-index:30;
+    /* border: 1px solid black; */
+    background-color: black;
+
+}
+#blackboxtext{
+    padding-top: 250px;;
+    padding-left:80px;
+    font-size: larger;
+    color:grey;
+}
+#blackboxtext1{
+    padding-top: 270px;;
+    padding-left:80px;
+    font-size: 40px;
+    color:white;
+}
+
+.imgbox1{
+    width: 20%;
+    height: 480px;
+    /* border: 1px solid red; */
+    z-index: 45;
+    position: absolute;
+    right: 50px;
+    top: 0px;
+    object-fit: cover;
+    /* background-color: red; */
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/248/Cordevalle-Map_397186feb8bd51bb37bc24fc2b9b500f.jpg");
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+
+}
+.child{
+    width: 33.1%;
+    height: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+}
+
+.childh1{
+    text-align: center;
+    position: absolute;
+    top:50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+}
+#texth1{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    left: 180px;
+    text-align: left;
+    font-size: 40px;
+  
+}
+.image{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    object-fit: contain;
+    text-align: center;
+    position: relative;
+
+}
+.first-txt {
+    font-size: 30px;
+    /* font-family:Arial, Helvetica, sans-serif; */
+    font-style:normal;
+    color:white;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+.first-button{
+    font-size: 20px;
+    position: absolute;
+    top: 350px;
+    left: 140px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    width:100vw;
+    height:50vh;
+    background-color: darkslategray;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    /* border: 1px solid green; */
+}
+
+#copyfooter{
+    width:100vw;
+    height:10vh;
+    display: flex;
+    text-align: left;
+    background-color: darkslategrey;
+    flex-direction: row;
+    color: grey;
+    justify-content: flex-start;
+    /* border: 1px solid green; */
+
+}
+
+.child-footer{
+    width:70%;
+    height: 40%;
+    display: flex;
+    background-color: darkslategrey;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+.child-footer-new{
+    width:20%;
+    height:50%;
+    margin-top: 40px;
+    left:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: left;
+    line-height: 26pt;
+}#footerimg{
+    margin-top: 70px;
+}
+a{
+    color:white;
+}
+a:hover {
+    text-decoration: none;
+}
+a:link {
+    text-decoration:none;
+}

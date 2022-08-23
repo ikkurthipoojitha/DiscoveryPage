@@ -165,7 +165,7 @@ a:link {
         visibility: hidden;
     }
     .child{
-        width: 100%;
+        width: 40%;
         height: auto;
     }
     .footer{
@@ -267,13 +267,13 @@ a:link {
         height: 10%;
     }      
 }
-@media only screen and (min-width :769px) and (max-width :1024px) {
+@media only screen and (min-width :721px) and (max-width :1024px) {
     
     .menubar{
         visibility: hidden;
     }
     .child{
-        width: 40%;
+        width: 25%;
         height: auto;
         display: flex;
     }
@@ -293,9 +293,11 @@ a:link {
         display: flex;
     }
     .child1{
-        width:38%;
+        width:35%;
         height: 95px;
-        /* border: 1px solid yellow; */
+        margin-left: 10px;
+        /*
+        border: 1px solid yellow; */
 
     }
     .child2{

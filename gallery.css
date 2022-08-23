@@ -201,13 +201,14 @@ a:link {
 @media only screen and (min-width :360px) and (max-width :480px) {
     .main{
         background-color: aqua ;
+        width: 100%;
         height: auto;
     }
     .menubar{
         visibility: hidden;
     }
     .child{
-        width: 100%;
+        width: 100vw;
        
     }
     .footer{
@@ -228,6 +229,7 @@ a:link {
     .child1{
         width:95%;
         height: 100px;
+        margin-left:10px;
         /* border: 1px solid yellow; */
 
     }
@@ -250,8 +252,13 @@ a:link {
     }
     .footercopy{
         width: 100vw;
-        height: 10%;
+        height: 70px;
     }
+}
+*{
+    margin: 0;
+    padding: 0%;
+    padding-right: 0%;
 }
 
 @media only screen and (min-width :481px) and (max-width :720px) {
@@ -263,7 +270,7 @@ a:link {
         visibility: hidden;
     }
     .child{
-        width: 100%;
+        width: 50%;
        
     }
     .footer{
@@ -306,10 +313,10 @@ a:link {
     }
     .footercopy{
         width: 100vw;
-        height: 10%;
+        height: 100px;
     }      
 }
-@media only screen and (min-width :769px) and (max-width :1024px) {
+@media only screen and (min-width :721px) and (max-width :1024px) {
     .main{
         background-color: aqua ;
         height: auto;
@@ -318,7 +325,7 @@ a:link {
         visibility: hidden;
     }
     .child{
-        width: 100%;
+        width: 50%;
        
     }
     .footer{
@@ -337,8 +344,9 @@ a:link {
         display: flex;
     }
     .child1{
-        width:38%;
+        width:35%;
         height: 95px;
+        margin-left: 10px;
         /* border: 1px solid yellow; */
 
     }
@@ -361,6 +369,6 @@ a:link {
     }
     .footercopy{
         width: 100vw;
-        height: 10%;
+        height: 100px;
     }
 }
